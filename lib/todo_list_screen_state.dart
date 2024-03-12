@@ -12,7 +12,7 @@ class TodoListScreen extends StatefulWidget {
 
 class _TodoListScreenState extends State<TodoListScreen> with TaskSortingMixin {
 
-  List<Task> helloList = [Task(title: 'HELLO', description: 'this is todo list')];
+  Set<Task> helloList = {Task(title: 'HELLO', description: 'this is todo list')};
 
   Tasks? taskList;
 
